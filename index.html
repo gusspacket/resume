@@ -5,64 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>resume Konstantin Guss</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <img src="resume-img2.jpg" width="150">
-   <h1>Гусс Константин</h1> 
-   <p>Я закончил раньше работу и:</p>
-   <p><strong>принял рещение </strong> и начал прохождение курса по HTML <em> начиная с 3 ноября 2022 года</em></p>
-   <h4><b> Мои социальные сети </b></h4>
-   <p><a href="https://www.instagram.com/gusspacket/" target="_blank">Instagram</a> | <a href="http://t.me/gusspacket" target="_blank">Telegram</a></p>
-<h2>Мои хобби</h2>
-<ol>
-    <li>Тутешествия</li>
-    <li>Автомобили</li>
-    <li>Танцы</li>
-    <li>Музыка</li>
-</ol>
-<h2>Опыт работы</h2>
-    <table width="300" >
-        <head>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-        </tr>
-        </head>
-        <tbody>
-            <tr>
-                <td>Таттелеком</td>
-                <td>Инженер проектировщик</td>
-                <td>2012-2021</td>
-            </tr>
-            <tr>
-                <td>Tomat films</td>
-                <td>Режиссер монтажа</td>
-                <td>2021-2022</td>
-            </tr>
-        </tbody>
-    </table> 
-
-    <h2>Связаться со мной</h2>
-    <form>
-        <div>
-            <label for="name">Ваше имя</label>
-            <input type="name" id="name" placeholder="Ваше имя">
+<body>    
+    <div class="container"> 
+        <div class="info">
+            <div class="avatar-style">
+                <img src="Resume-img3.jpg" class="avatar">
+            </div>
+            <div class="info-text">
+                <h1>Гусс Константин</h1> 
+                <p> <strong>Изучаю курс по HTML, CSS по урокам Result school, </strong> <em>начиная с 3 ноября 2022 года
+                </em>
+                </p>
+             <h4>Мои социальные сети:</h4>
+                <div class="btn">
+                    <p><a href="https://www.instagram.com/gusspacket/" target="_blank" class="insta">Instagram</a> | <a href="http://t.me/gusspacket" target="_blank" class="telegram">Telegram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card bg-green" >
+            <h2>Мои хобби:</h2>
+            <ol class="list">
+                <li>Путешествия</li>
+                <li>Автомобили</li>
+                <li>Танцы</li>
+                <li>Музыка</li>
+            </ol>
+        </div>
+        <div class="card bg-red">
+            <h2>Опыт работы:</h2>
+                <table width="300" class="table" >
+                        <tbody>
+                            <tr>
+                                <td>Таттелеком</td>
+                                <td>Инженер проектировщик</td>
+                                <td>2012-2018</td>
+                            </tr>
+                            <tr>
+                                <td>Таттелеком</td>
+                                <td>Руководитель группы</td>
+                                <td>2018-2021</td>
+                            </tr>
+                            <tr>
+                                <td>Tomat films</td>
+                                <td>Режиссер монтажа</td>
+                                <td>2021-2022</td>
+                            </tr>
+                        </tbody>
+                </table> 
+        </div>
+        <div class="card bg-blue">
+            <h2>Мои курсы:</h2>
+            <ul class="link-list">
+                <li>
+                <a href="https://lk.result.school" target="_blank"> Курсы HTML, CSS</a>
+                </li>
+                <li>
+                    <a href="https://vladilen.ru"> Все курсы </a>
+                </li>
+            </ul>
         </div>
 
-        <div>
-            <label for="email">Ваш Email</label>
-            <input type="email" id="email" placeholder="Введите емайл">
-        </div>
+        <div class="card bg-yellow">
+            <form action="/" class="form">
+                <h2>Связаться со мной:</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="name" id="name" placeholder="Введите имя">
+                    </div>
 
-        <div>
-            <label for="massage">Ваше сообщение</label>
-            <br>
-            <textarea name="" id="massage" cols="30" rows="3" placeholder="Введите сообщение. . ."></textarea>
+                    <div class="form-group">
+                        <label for="email">Ваш Email</label>
+                        <input type="email" id="email" placeholder="Введите емайл">
+                    </div>
+                 </div>
+                <div class="form-group">
+                    <label for="massage">Ваше сообщение</label>
+                    <textarea name="" id="massage" cols="10" rows="2" placeholder="Введите сообщение. . ."></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+            
         </div>
-    </form>
-
-    <button type="submit">Отправить</button>
+    </div>
 
 
 

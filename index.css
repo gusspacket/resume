@@ -1,0 +1,199 @@
+body {
+    font-family: futura;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0f141e;
+    background: #e8eff5
+    
+}
+
+.container img {
+    display: block;
+    /* max-width: 400px; */
+    /* margin: auto ; */
+    /* margin-left: 100px;
+    margin-right: 50px; */
+    
+}
+.avatar-style   {
+    min-width: 340px;
+
+}
+.avatar {
+    width: 200px;
+    /* width: 250px; */
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+    margin: auto;
+}
+
+
+
+.info {
+    margin-bottom: 20px;
+    display:flex
+}
+
+.info-text {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    
+}
+.info-text p {
+    font-style: italic;
+    font-weight: bold;  
+    color: #86898f;
+
+}
+
+
+.card {  
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+
+.bg-blue {
+    background: lightblue;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7; 
+}
+.a {
+    color: black;
+    text-decoration: none;
+}
+a.activ {
+    color:  gray;
+}
+a.visited {
+    color: pink;
+}
+
+.btn {
+    background: none;
+    /* padding: 4px; */
+    margin: 0;
+    color: black;
+    /* cursor: pointer; */
+    font-family: inherit;
+    border-radius: 50px; 
+}
+.btn:hover {
+    opacity: .6;  
+}
+
+.btn p :visited {
+    color: lightseagreen;
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+    
+}
+.table td {
+    padding-bottom: 10px;
+    
+   
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+
+
+.link-list {
+    list-style: none;
+    padding: 0;
+
+}
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+    /* display: inline-block ; */
+    /* width:calc(50%-20px); */
+
+}
+.form-row .form-group {
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+.form-row .form-group :last-child {
+margin-right: 20px; 
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: black;
+}
+.form-group {
+    margin-right: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box; /*НЕ ПОНЯЛ!!*/
+    border: none; /*удаляем границу*/
+    background: transparent; /* Трансопрент становится прозрачным как бы*/
+    border-bottom: 2px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    padding-bottom: 0px;
+
+}
+
+
+@media (max-width: 630px) {
+    .info {
+       display: block;
+       text-align: center;
+    }
+}
+
+@media (max-width: 630px) {
+    .info {
+       display: block;
+       text-align: center;
+    }
+}
+
